@@ -8,6 +8,7 @@
 word = 'tengo un perro que se llama pispotero'
 letra_a_buscar = 'p'
 count = 0
+#bucle para contar letras
 for letter in word:
     if letter == letra_a_buscar:
         count = count + 1
